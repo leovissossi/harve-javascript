@@ -16,4 +16,4 @@ round01.textContent = Math.round(numeroRound01);
 round02.textContent = Math.round(numeroRound02);
 
 const random = document.getElementById("numero-random");
-random.textContent = Math.random();
+random.textContent = Number(Math.random()).toFixed(5);
